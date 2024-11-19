@@ -7,5 +7,6 @@ void setupWindow() {
   var minSize = const Size(720, 480);
   appWindow.size = initialSize;
   appWindow.minSize = minSize;
+  appWindow.alignment = Alignment.center;
   appWindow.show();
 }
